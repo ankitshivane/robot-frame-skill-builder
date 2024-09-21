@@ -45,3 +45,7 @@ install robot framework language server plugin
 
 20. download selenium browser driver
 https://www.selenium.dev/downloads/
+once drivers are downloaded place them under python/scripts folder and add this path to your env variables so that while launching your script the drivers will be automatically detected instead of writing a seperate code in your robotframework test case file.
+
+21. after writing the test case inorder to test it use below command
+robot path_to_.robot_file/TestCaseFileName.robot
