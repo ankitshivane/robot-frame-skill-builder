@@ -1,1 +1,47 @@
 intro
+
+1. install python
+2. install pip
+
+python -V
+pip -V
+
+3. configure path (add python and pip to path)
+4. use pip to install ROBOT framework -- cmd is pip3 install robotframework
+output: Successfully installed robotframework-7.1
+	To verify whether it is installed
+	>pip show robotframework
+	pip list
+	pip check robotframework
+
+	To upgrade current robotframework version:
+	pip install --upgrade robotframework
+	
+	To install a specific version robotframework
+	pip install robotframework=2.9.7
+	
+	To uninstall robotframework
+	pip uninstall robotframework
+
+4B. install selenium:
+pip install selenium	
+		
+5. use pip to install seleniumLibrary -- cmd is> pip3 install robotframework-seleniumlibrary
+
+6. install pycharm IDE and install intellibot plugin
+7. download selenium browser driver for the browser.
+
+8. Open pycharm now create one python project and then select your project -> goto files -> select Settings options -> type your project name in search and select interpreter option there if those library not available then -> click on + icon -> search for below library one by one -> click install
+selenium
+robotframework
+robotframework-seleniumlibrary
+pip
+
+once installed restart your IDE and again goto settings and verify that it should be visible under interpreter.
+
+9. Instead of installing intelliBot @Selenium library plugin.
+install robot framework language server plugin
+
+
+20. download selenium browser driver
+https://www.selenium.dev/downloads/
